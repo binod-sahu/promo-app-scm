@@ -1,8 +1,13 @@
 import React from "react";
 import PromoItems from './PromoItems'
 import config from '../appConfig'
+import "../css/App.css";
 
 const PromoTable = () => {
+
+    const calculatePromo = () => {
+        console.log('called')
+    } 
     return (
       <div className="container">
         <table className="table caption-top">
@@ -24,6 +29,7 @@ const PromoTable = () => {
                 item= {item}
                 index={index}
                 key={index}
+                calculatePromo={calculatePromo}
               />)
               }  
               
@@ -33,9 +39,7 @@ const PromoTable = () => {
                     <td className="fw-bolder" colSpan="4">Total</td>
                     <td className="fw-bold">Total Price</td>
                     <td className="fw-bold">Total Discount</td>
-                    <td className="fw-bold">
-                    Total Payable
-                    </td>
+                    <td className="fw-bold">Total Payable</td>
                 </tr>
                 </tfoot>
             </table>  
