@@ -30,12 +30,10 @@ const PromoTable = () => {
             </tbody>
             <tfoot>
                 <tr>
-                    <td className="text-right fw-bolder" colSpan="4">
-                    Total
-                    </td>
-                    <td className="text-right fw-bold">Total Price</td>
-                    <td className="text-right fw-bold">Total Discount</td>
-                    <td className="text-right fw-bold">
+                    <td className="fw-bolder" colSpan="4">Total</td>
+                    <td className="fw-bold">Total Price</td>
+                    <td className="fw-bold">Total Discount</td>
+                    <td className="fw-bold">
                     Total Payable
                     </td>
                 </tr>
