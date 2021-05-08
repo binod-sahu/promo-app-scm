@@ -1,15 +1,18 @@
 import React from "react";
 
 const PromoItems = (props) => {
-  const {firstName, lastName, age} = props.item;
+  const {itemName, price, promotion} = props.item;
   const {index} = props;
     return (
       <React.Fragment>
         <tr>
         <th scope="row">{index + 1}</th>
-        <td>{firstName}</td>
-        <td>{lastName}</td>
-        <td>{age}</td>
+        <td>{itemName}</td>
+        <td></td>
+        <td>£{price}</td>
+        <td></td>
+        <td>£{promotion.discount}</td>
+        <td></td>
         </tr>
       </React.Fragment>
     );
