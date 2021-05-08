@@ -28,7 +28,32 @@ const PromoTable = () => {
               }  
               
             </tbody>
+            <tfoot>
+                <tr>
+                    <td className="text-right fw-bolder" colSpan="4">
+                    Total
+                    </td>
+                    <td className="text-right fw-bold">Total Price</td>
+                    <td className="text-right fw-bold">Total Discount</td>
+                    <td className="text-right fw-bold">
+                    Total Payable
+                    </td>
+                </tr>
+                </tfoot>
             </table>  
+
+            <div className="row text-end">
+                <div className="fs-4 fw-bold">Total Price :
+                    <span className="fw-light fs-5 ms-2">£</span>
+                </div>
+                <div className="fs-4 fw-bold">Total Discount :
+                    <span className="fw-light fs-5 ms-2">£</span>
+                </div>
+                <div className="fs-4 fw-bold">Total Amount to pay :
+                    <span className="fw-light fs-5 ms-2">£</span>
+                </div>
+
+            </div>
       </div>
     );
   }
