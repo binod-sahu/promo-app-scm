@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import PromoTable from './components/PromoTable'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-<h1> My Promo App </h1>    
-  
-  </div>
+      <PromoTable></PromoTable>    
+    </div>
   );
 }
 
