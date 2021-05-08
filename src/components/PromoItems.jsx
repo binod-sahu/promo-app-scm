@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/App.css";
 
 const PromoItems = (props) => {
   const {itemName, price, promotion, count, discount, total, calculatePromo} = props.item;
