@@ -37,7 +37,7 @@ const PromoTable = () => {
     discTot += item.discount;
     return item;
     });
-
+    console.log(items, 'items')
     setCartItems(items);
     setTotalSub(total);
     setDiscountTotal(discTot);
@@ -65,7 +65,6 @@ const PromoTable = () => {
                 item= {item}
                 index={index}
                 key={index}
-                itemCount={item.count}
                 calculatePromo={calculatePromo}
                 />)
                 }  
