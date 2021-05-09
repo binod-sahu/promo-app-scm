@@ -29,4 +29,19 @@ describe("Test cases for product items component", () => {
     expect(renderedModule).toBeTruthy();
   });
 
+  test("for Increment", () => {
+    const renderedModule = mount(<PromoItem {...props} />);
+    const { container } = render(<PromoItem {...props} />)
+    const incrementButton = container.querySelector('#increment')
+    fireEvent.click(incrementButton);
+    expect(renderedModule).toBeTruthy();
+  });
+
+  test("for Decrement", () => {
+    const renderedModule = mount(<PromoItem {...props} />);
+    const { container } = render(<PromoItem {...props} />)
+    const incrementButton = container.querySelector('#decrement')
+    fireEvent.click(incrementButton);
+    expect(renderedModule).toBeTruthy();
+  });
 });

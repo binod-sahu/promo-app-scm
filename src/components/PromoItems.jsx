@@ -13,6 +13,7 @@ const PromoItems = (props) => {
         <td className="d-flex">
         <div className="col-auto my-1 me-2">
           <button
+            id="decrement"
             className="btn btn-primary"
             onClick={() =>
               calculatePromo(itemName, count - 1)
@@ -29,6 +30,7 @@ const PromoItems = (props) => {
         />
         <div className="my-1">
           <button
+            id="increment"
             className="btn btn-primary"
             onClick={() => calculatePromo(itemName, count + 1)}
           >

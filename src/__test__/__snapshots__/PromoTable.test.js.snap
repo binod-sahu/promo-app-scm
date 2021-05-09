@@ -73,6 +73,7 @@ exports[`snapshot should render snapshot 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="decrement"
               onClick={[Function]}
             >
               -
@@ -89,6 +90,7 @@ exports[`snapshot should render snapshot 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="increment"
               onClick={[Function]}
             >
               +
@@ -129,6 +131,7 @@ exports[`snapshot should render snapshot 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="decrement"
               onClick={[Function]}
             >
               -
@@ -145,6 +148,7 @@ exports[`snapshot should render snapshot 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="increment"
               onClick={[Function]}
             >
               +
@@ -185,6 +189,7 @@ exports[`snapshot should render snapshot 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="decrement"
               onClick={[Function]}
             >
               -
@@ -201,6 +206,7 @@ exports[`snapshot should render snapshot 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="increment"
               onClick={[Function]}
             >
               +
@@ -241,6 +247,7 @@ exports[`snapshot should render snapshot 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="decrement"
               onClick={[Function]}
             >
               -
@@ -257,6 +264,7 @@ exports[`snapshot should render snapshot 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="increment"
               onClick={[Function]}
             >
               +
@@ -423,6 +431,7 @@ exports[`snapshot should render snapshot1 with props 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="decrement"
               onClick={[Function]}
             >
               -
@@ -439,6 +448,7 @@ exports[`snapshot should render snapshot1 with props 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="increment"
               onClick={[Function]}
             >
               +
@@ -479,6 +489,7 @@ exports[`snapshot should render snapshot1 with props 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="decrement"
               onClick={[Function]}
             >
               -
@@ -495,6 +506,7 @@ exports[`snapshot should render snapshot1 with props 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="increment"
               onClick={[Function]}
             >
               +
@@ -535,6 +547,7 @@ exports[`snapshot should render snapshot1 with props 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="decrement"
               onClick={[Function]}
             >
               -
@@ -551,6 +564,7 @@ exports[`snapshot should render snapshot1 with props 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="increment"
               onClick={[Function]}
             >
               +
@@ -591,6 +605,7 @@ exports[`snapshot should render snapshot1 with props 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="decrement"
               onClick={[Function]}
             >
               -
@@ -607,6 +622,7 @@ exports[`snapshot should render snapshot1 with props 1`] = `
           >
             <button
               className="btn btn-primary"
+              id="increment"
               onClick={[Function]}
             >
               +
