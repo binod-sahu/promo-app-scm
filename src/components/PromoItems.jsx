@@ -1,8 +1,8 @@
 import React from "react";
 
 const PromoItems = (props) => {
-  const {itemName, price, promotion, count, discount, total, calculatePromo} = props.item;
-  const {index} = props;
+  const {itemName, price, discount, total} = props.item;
+  const {index, calculatePromo, itemCount} = props;
     return (
       <React.Fragment>
         <tr>
@@ -12,7 +12,9 @@ const PromoItems = (props) => {
         <div className="col-auto my-1 me-2">
           <button
             className="btn btn-primary"
-            onClick={() => calculatePromo()}
+            onClick={() =>
+              calculatePromo(itemName, itemCount - 1)
+            }
           >
             -
           </button>
@@ -20,21 +22,21 @@ const PromoItems = (props) => {
         <input
           type="text"
           className="form-control select-width me-2"
-          value="3"
-          onChange={(e) => calculatePromo()}
+          value={itemCount}
+          onChange={(e) => calculatePromo(itemName, e.target.value)}
         />
-        <div className="col-auto my-1">
+        <div className="my-1">
           <button
             className="btn btn-primary"
-            onClick={() => calculatePromo()}
+            onClick={() => calculatePromo(itemName, itemCount + 1)}
           >
             +
           </button>
         </div>
-       </td>
+      </td>
         <td>£{price}</td>
         <td>£{total}</td>
-        <td>£{promotion.discount}</td>
+        <td>£{discount}</td>
         <td>£{total - discount}</td>
         </tr>
       </React.Fragment>
