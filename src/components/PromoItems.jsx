@@ -1,9 +1,7 @@
 import React from "react";
 
 const PromoItems = (props) => {
-  console.log(props)
   const { itemName, price, discount, total, count} = props.item;
-  console.log(props.item.count, 'props')
   const {index, calculatePromo} = props;
     return (
       <React.Fragment>
